@@ -1,0 +1,85 @@
+.pb25p
+{
+	padding-bottom: 25px;
+}
+
+.img-100pp
+{
+	width: 100%;
+	height: auto;
+}
+
+.mb20p
+{
+	margin-bottom: 20px;
+	display: block;
+	margin: auto;
+}
+
+.plr5pp
+{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.mt20p
+{
+	margin-top: 20px;
+}
+
+.img-h350w100
+{
+	/*height: 350px;*/
+	width: 100%;
+}
+
+@media screen and (max-width: 600px){
+	.img-100pp{
+		width: 60%;
+	}
+}
+
+.pb0p
+{
+	padding: 0px;
+	margin: 0 auto;
+}
+
+.bgcontact
+{
+	background-image: url("../images/pcbg.jpeg");
+	background-position: center;
+	background-size: cover;
+}
+
+.form-control
+{
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	border-color: transparent;
+}
+
+#formguide
+{
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+@media screen and (max-width: 700px){
+	.btn-dark{
+		display: none;
+	}
+}
+
+.center
+{
+	display: block;
+	margin: auto;
+}
+
+h2
+{
+	font-size: 28px;
+	margin-top: 10px;
+}
